@@ -7,6 +7,9 @@ export default defineConfig({
   format: ['cjs'],
   shims: false,
   dts: false,
+  noExternal: [
+    'sanitize-filename',
+  ],
   external: [
     'vscode',
   ],

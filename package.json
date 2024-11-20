@@ -2,7 +2,7 @@
   "publisher": "prinsss",
   "name": "vscode-download-and-open",
   "displayName": "Download and Open",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "packageManager": "pnpm@9.7.1",
   "description": "",
@@ -56,6 +56,9 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "release": "bumpp && nr publish"
+  },
+  "dependencies": {
+    "sanitize-filename": "^1.6.3"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.26.0",
