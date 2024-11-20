@@ -1,24 +1,24 @@
 {
-  "publisher": "antfu",
-  "name": "ext-name",
-  "displayName": "ext-name",
+  "publisher": "prinsss",
+  "name": "vscode-download-and-open",
+  "displayName": "Download and Open",
   "version": "0.0.0",
   "private": true,
   "packageManager": "pnpm@9.7.1",
   "description": "",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/ext-name#readme",
+  "funding": "https://github.com/sponsors/prinsss",
+  "homepage": "https://github.com/prinsss/vscode-download-and-open#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antfu/ext-name"
+    "url": "https://github.com/prinsss/vscode-download-and-open"
   },
   "bugs": {
-    "url": "https://github.com/antfu/ext-name/issues"
+    "url": "https://github.com/prinsss/vscode-download-and-open/issues"
   },
   "sponsor": {
-    "url": "https://github.com/sponsors/antfu"
+    "url": "https://github.com/sponsors/prinsss"
   },
   "categories": [
     "Other"
@@ -40,7 +40,7 @@
     "commands": [],
     "configuration": {
       "type": "object",
-      "title": "ext-name",
+      "title": "vscode-download-and-open",
       "properties": {}
     }
   },
