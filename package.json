@@ -2,11 +2,11 @@
   "publisher": "prinsss",
   "name": "vscode-download-and-open",
   "displayName": "Download and Open",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "packageManager": "pnpm@9.7.1",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "author": "prin <hi@prin.studio>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/prinsss",
   "homepage": "https://github.com/prinsss/vscode-download-and-open#readme",
@@ -37,12 +37,12 @@
     "onStartupFinished"
   ],
   "contributes": {
-    "commands": [],
-    "configuration": {
-      "type": "object",
-      "title": "vscode-download-and-open",
-      "properties": {}
-    }
+    "commands": [
+      {
+        "command": "vscode-download-and-open.download",
+        "title": "Download to /tmp and open..."
+      }
+    ]
   },
   "scripts": {
     "build": "tsup src/index.ts --external vscode",

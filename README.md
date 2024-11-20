@@ -14,7 +14,9 @@ Download file from given URL to /tmp and open it. Useful for temporarily inspect
 ## Commands
 
 <!-- commands -->
-<!-- empty -->
+| Command                             | Title                        |
+| ----------------------------------- | ---------------------------- |
+| `vscode-download-and-open.download` | Download to /tmp and open... |
 <!-- commands -->
 
 ## License
